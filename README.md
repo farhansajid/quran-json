@@ -72,6 +72,20 @@ For example:
 * *Al-Fatihah* verse #1: [`cdn.jsdelivr.net/npm/quran-json@3.1.2/dist/verses/1.json`](https://cdn.jsdelivr.net/npm/quran-json@3.1.2/dist/verses/1.json)
 * *An-Nas* verse #6: [`cdn.jsdelivr.net/npm/quran-json@3.1.2/dist/verses/6236.json`](https://cdn.jsdelivr.net/npm/quran-json@3.1.2/dist/verses/6236.json)
 
+
+## Agentic Framework for Quran Understanding
+
+A starter multi-agent framework is available at [`framework/`](./framework):
+
+- `framework/agentic-framework.js`: intent detection, verse retrieval, and answer synthesis pipeline.
+- `framework/README.md`: architecture and usage guidance.
+
+Run it with:
+
+```bash
+node framework/agentic-framework.js "What does the Quran say about patience during hardship?"
+```
+
 ## Generate the JSON
 
 If you want to generate the JSON files by yourself:
